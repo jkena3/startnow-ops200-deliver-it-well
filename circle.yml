@@ -32,11 +32,11 @@ jobs:
       - run: yarn test
 
   deploy:
-    prod:
+    stagging:
     branch: master
     heroku:
       appname: jkena3
-      
+
 workflows:
   version: 2
   build-deploy:
