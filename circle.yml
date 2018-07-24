@@ -2,7 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: zjm-ops200deliveritwell
+      appname: jkena3
 machine:
   node:
     version: 8.1.4
